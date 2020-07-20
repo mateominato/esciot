@@ -1,0 +1,3141 @@
+{
+  "contractName": "Device",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "returnAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "enum Device.DeviceType",
+          "name": "x",
+          "type": "uint8"
+        }
+      ],
+      "name": "changeDeviceType",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "returnDeviceType",
+      "outputs": [
+        {
+          "internalType": "enum Device.DeviceType",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "auth",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "f1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "f2",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "fparamint1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fviewbool1",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fviewint1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"constant\":true,\"inputs\":[],\"name\":\"auth\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"enum Device.DeviceType\",\"name\":\"x\",\"type\":\"uint8\"}],\"name\":\"changeDeviceType\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"f1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"f2\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"fparamint1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"fviewbool1\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"fviewint1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"returnAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"returnDeviceType\",\"outputs\":[{\"internalType\":\"enum Device.DeviceType\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Mateo/ethac/truffle/contracts/Device.sol\":\"Device\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Mateo/ethac/truffle/contracts/Device.sol\":{\"keccak256\":\"0xb633a3994f4877fc3791b0f434bc9a12ee981e3fa1d5b49746141a4f4fb7dc40\",\"urls\":[\"bzz-raw://fccc0f86f9d8dbacd75ff494b3ff7c82a3f97918655f9ee616a3b619da390968\",\"dweb:/ipfs/QmZoTdXXCwSaFYXWANEviU3Cd3JDQtHd3GMwtTJk3qS6XL\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "pragma solidity ^0.5.1;\n\ncontract Device {\n    address private authority; //treat the authority as the owner\n    \n    enum DeviceType { Lock, Light, Thermometer }\n    \n    DeviceType dtype;\n    \n    constructor() public {\n        authority = msg.sender;\n    }\n    \n    //modifier to check if caller is owner\n    modifier isOwner() {\n        require(msg.sender == authority, \"Caller is not owner\");\n        _;\n    }\n    \n    modifier isLock() {\n        require(dtype == DeviceType.Lock, \"This device is not a lock.\");\n        _;\n    }\n    \n    modifier isLight() {\n        require(dtype == DeviceType.Light, \"This device is not a light.\");\n        _;\n    }\n    \n    modifier isThermo() {\n        require(dtype == DeviceType.Thermometer, \"This device is not a thermometer.\");\n        _;\n    }\n    \n    function returnAddr() public view isOwner returns(address) {\n        return address(this);\n    }\n    \n    function changeDeviceType(DeviceType x) public isOwner {\n        dtype = x;\n    }\n    \n    function returnDeviceType() view public isOwner returns(DeviceType) {\n        return dtype;\n    }\n    \n    function auth() public view returns(address) {\n        return authority;\n    }\n    \n    function f1() public;\n    function f2() public;\n    function fparamint1(uint256 x) public;\n    function fviewbool1() public view returns(bool);\n    function fviewint1() public view returns(uint256);\n}",
+  "sourcePath": "/Users/Mateo/ethac/truffle/contracts/Device.sol",
+  "ast": {
+    "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Device.sol",
+    "exportedSymbols": {
+      "Device": [
+        673
+      ]
+    },
+    "id": 674,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 544,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 673,
+        "linearizedBaseContracts": [
+          673
+        ],
+        "name": "Device",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 546,
+            "name": "authority",
+            "nodeType": "VariableDeclaration",
+            "scope": 673,
+            "src": "47:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 545,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "47:7:1",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "canonicalName": "Device.DeviceType",
+            "id": 550,
+            "members": [
+              {
+                "id": 547,
+                "name": "Lock",
+                "nodeType": "EnumValue",
+                "src": "136:4:1"
+              },
+              {
+                "id": 548,
+                "name": "Light",
+                "nodeType": "EnumValue",
+                "src": "142:5:1"
+              },
+              {
+                "id": 549,
+                "name": "Thermometer",
+                "nodeType": "EnumValue",
+                "src": "149:11:1"
+              }
+            ],
+            "name": "DeviceType",
+            "nodeType": "EnumDefinition",
+            "src": "118:44:1"
+          },
+          {
+            "constant": false,
+            "id": 552,
+            "name": "dtype",
+            "nodeType": "VariableDeclaration",
+            "scope": 673,
+            "src": "172:16:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_DeviceType_$550",
+              "typeString": "enum Device.DeviceType"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 551,
+              "name": "DeviceType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 550,
+              "src": "172:10:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_DeviceType_$550",
+                "typeString": "enum Device.DeviceType"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 560,
+              "nodeType": "Block",
+              "src": "220:39:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 558,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 555,
+                      "name": "authority",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 546,
+                      "src": "230:9:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 556,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 921,
+                        "src": "242:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 557,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "242:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "230:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 559,
+                  "nodeType": "ExpressionStatement",
+                  "src": "230:22:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 561,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "210:2:1"
+            },
+            "returnParameters": {
+              "id": 554,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "220:0:1"
+            },
+            "scope": 673,
+            "src": "199:60:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 572,
+              "nodeType": "Block",
+              "src": "331:83:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 567,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 564,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 921,
+                            "src": "349:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 565,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "349:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 566,
+                          "name": "authority",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 546,
+                          "src": "363:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "349:23:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "43616c6c6572206973206e6f74206f776e6572",
+                        "id": 568,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "374:21:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_2d10247a65709fdb3c0696b0ed760a0c246e12f8c496efb56291dd2fe3b0275d",
+                          "typeString": "literal_string \"Caller is not owner\""
+                        },
+                        "value": "Caller is not owner"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_2d10247a65709fdb3c0696b0ed760a0c246e12f8c496efb56291dd2fe3b0275d",
+                          "typeString": "literal_string \"Caller is not owner\""
+                        }
+                      ],
+                      "id": 563,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "341:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 569,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "341:55:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 570,
+                  "nodeType": "ExpressionStatement",
+                  "src": "341:55:1"
+                },
+                {
+                  "id": 571,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "406:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 573,
+            "name": "isOwner",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 562,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "328:2:1"
+            },
+            "src": "312:102:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 584,
+              "nodeType": "Block",
+              "src": "442:91:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 579,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 576,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "460:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 577,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "469:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 578,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Lock",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "469:15:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "460:24:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f742061206c6f636b2e",
+                        "id": 580,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "486:28:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_978bbe503f367e4d5fd3d272005fff58089cbcc1b996ebc5967d5071d571d81c",
+                          "typeString": "literal_string \"This device is not a lock.\""
+                        },
+                        "value": "This device is not a lock."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_978bbe503f367e4d5fd3d272005fff58089cbcc1b996ebc5967d5071d571d81c",
+                          "typeString": "literal_string \"This device is not a lock.\""
+                        }
+                      ],
+                      "id": 575,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "452:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 581,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "452:63:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 582,
+                  "nodeType": "ExpressionStatement",
+                  "src": "452:63:1"
+                },
+                {
+                  "id": 583,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "525:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 585,
+            "name": "isLock",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 574,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "439:2:1"
+            },
+            "src": "424:109:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 596,
+              "nodeType": "Block",
+              "src": "562:93:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 591,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 588,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "580:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 589,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "589:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 590,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Light",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "589:16:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "580:25:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f742061206c696768742e",
+                        "id": 592,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "607:29:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_79ffe4233dd05208b905468bbddd51030c514a0c2ab23d68cc5d5dfcd72cdf8e",
+                          "typeString": "literal_string \"This device is not a light.\""
+                        },
+                        "value": "This device is not a light."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_79ffe4233dd05208b905468bbddd51030c514a0c2ab23d68cc5d5dfcd72cdf8e",
+                          "typeString": "literal_string \"This device is not a light.\""
+                        }
+                      ],
+                      "id": 587,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "572:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 593,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "572:65:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 594,
+                  "nodeType": "ExpressionStatement",
+                  "src": "572:65:1"
+                },
+                {
+                  "id": 595,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "647:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 597,
+            "name": "isLight",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 586,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "559:2:1"
+            },
+            "src": "543:112:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 608,
+              "nodeType": "Block",
+              "src": "685:105:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 603,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 600,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "703:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 601,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "712:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 602,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Thermometer",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "712:22:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "703:31:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f74206120746865726d6f6d657465722e",
+                        "id": 604,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "736:35:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_a5cf60387c3fa62b66a741c56545cec4ddb9a67f0a0dbcbf20d90692448db00e",
+                          "typeString": "literal_string \"This device is not a thermometer.\""
+                        },
+                        "value": "This device is not a thermometer."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_a5cf60387c3fa62b66a741c56545cec4ddb9a67f0a0dbcbf20d90692448db00e",
+                          "typeString": "literal_string \"This device is not a thermometer.\""
+                        }
+                      ],
+                      "id": 599,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "695:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 605,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "695:77:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 606,
+                  "nodeType": "ExpressionStatement",
+                  "src": "695:77:1"
+                },
+                {
+                  "id": 607,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "782:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 609,
+            "name": "isThermo",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 598,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "682:2:1"
+            },
+            "src": "665:125:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 620,
+              "nodeType": "Block",
+              "src": "859:37:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 617,
+                        "name": "this",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 935,
+                        "src": "884:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Device_$673",
+                          "typeString": "contract Device"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_contract$_Device_$673",
+                          "typeString": "contract Device"
+                        }
+                      ],
+                      "id": 616,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "876:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": "address"
+                    },
+                    "id": 618,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "876:13:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 615,
+                  "id": 619,
+                  "nodeType": "Return",
+                  "src": "869:20:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 621,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 612,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 611,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "834:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "834:7:1"
+              }
+            ],
+            "name": "returnAddr",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 610,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "819:2:1"
+            },
+            "returnParameters": {
+              "id": 615,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 614,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 621,
+                  "src": "850:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 613,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "850:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "849:9:1"
+            },
+            "scope": 673,
+            "src": "800:96:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 632,
+              "nodeType": "Block",
+              "src": "961:26:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 630,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 628,
+                      "name": "dtype",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 552,
+                      "src": "971:5:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_DeviceType_$550",
+                        "typeString": "enum Device.DeviceType"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 629,
+                      "name": "x",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 623,
+                      "src": "979:1:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_DeviceType_$550",
+                        "typeString": "enum Device.DeviceType"
+                      }
+                    },
+                    "src": "971:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "id": 631,
+                  "nodeType": "ExpressionStatement",
+                  "src": "971:9:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 633,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 626,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 625,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "953:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "953:7:1"
+              }
+            ],
+            "name": "changeDeviceType",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 624,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 623,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 633,
+                  "src": "932:12:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_DeviceType_$550",
+                    "typeString": "enum Device.DeviceType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 622,
+                    "name": "DeviceType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 550,
+                    "src": "932:10:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "931:14:1"
+            },
+            "returnParameters": {
+              "id": 627,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "961:0:1"
+            },
+            "scope": 673,
+            "src": "906:81:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 642,
+              "nodeType": "Block",
+              "src": "1065:29:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 640,
+                    "name": "dtype",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 552,
+                    "src": "1082:5:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "functionReturnParameters": 639,
+                  "id": 641,
+                  "nodeType": "Return",
+                  "src": "1075:12:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 643,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 636,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 635,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "1037:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "1037:7:1"
+              }
+            ],
+            "name": "returnDeviceType",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 634,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1022:2:1"
+            },
+            "returnParameters": {
+              "id": 639,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 638,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 643,
+                  "src": "1053:10:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_DeviceType_$550",
+                    "typeString": "enum Device.DeviceType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 637,
+                    "name": "DeviceType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 550,
+                    "src": "1053:10:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1052:12:1"
+            },
+            "scope": 673,
+            "src": "997:97:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 650,
+              "nodeType": "Block",
+              "src": "1149:33:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 648,
+                    "name": "authority",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 546,
+                    "src": "1166:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 647,
+                  "id": 649,
+                  "nodeType": "Return",
+                  "src": "1159:16:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 651,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "auth",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 644,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1117:2:1"
+            },
+            "returnParameters": {
+              "id": 647,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 646,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 651,
+                  "src": "1140:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 645,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1140:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1139:9:1"
+            },
+            "scope": 673,
+            "src": "1104:78:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 654,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "f1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 652,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1203:2:1"
+            },
+            "returnParameters": {
+              "id": 653,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1212:0:1"
+            },
+            "scope": 673,
+            "src": "1192:21:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 657,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "f2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 655,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1229:2:1"
+            },
+            "returnParameters": {
+              "id": 656,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1238:0:1"
+            },
+            "scope": 673,
+            "src": "1218:21:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 662,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fparamint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 660,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 659,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 662,
+                  "src": "1264:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 658,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1264:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1263:11:1"
+            },
+            "returnParameters": {
+              "id": 661,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1281:0:1"
+            },
+            "scope": 673,
+            "src": "1244:38:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 667,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewbool1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 663,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1306:2:1"
+            },
+            "returnParameters": {
+              "id": 666,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 665,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 667,
+                  "src": "1329:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 664,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1329:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1328:6:1"
+            },
+            "scope": 673,
+            "src": "1287:48:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 672,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 668,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1358:2:1"
+            },
+            "returnParameters": {
+              "id": 671,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 670,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 672,
+                  "src": "1381:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 669,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1381:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1380:9:1"
+            },
+            "scope": 673,
+            "src": "1340:50:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 674,
+        "src": "25:1367:1"
+      }
+    ],
+    "src": "0:1392:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Device.sol",
+    "exportedSymbols": {
+      "Device": [
+        673
+      ]
+    },
+    "id": 674,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 544,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 673,
+        "linearizedBaseContracts": [
+          673
+        ],
+        "name": "Device",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 546,
+            "name": "authority",
+            "nodeType": "VariableDeclaration",
+            "scope": 673,
+            "src": "47:25:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 545,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "47:7:1",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "canonicalName": "Device.DeviceType",
+            "id": 550,
+            "members": [
+              {
+                "id": 547,
+                "name": "Lock",
+                "nodeType": "EnumValue",
+                "src": "136:4:1"
+              },
+              {
+                "id": 548,
+                "name": "Light",
+                "nodeType": "EnumValue",
+                "src": "142:5:1"
+              },
+              {
+                "id": 549,
+                "name": "Thermometer",
+                "nodeType": "EnumValue",
+                "src": "149:11:1"
+              }
+            ],
+            "name": "DeviceType",
+            "nodeType": "EnumDefinition",
+            "src": "118:44:1"
+          },
+          {
+            "constant": false,
+            "id": 552,
+            "name": "dtype",
+            "nodeType": "VariableDeclaration",
+            "scope": 673,
+            "src": "172:16:1",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_DeviceType_$550",
+              "typeString": "enum Device.DeviceType"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 551,
+              "name": "DeviceType",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 550,
+              "src": "172:10:1",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_DeviceType_$550",
+                "typeString": "enum Device.DeviceType"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 560,
+              "nodeType": "Block",
+              "src": "220:39:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 558,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 555,
+                      "name": "authority",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 546,
+                      "src": "230:9:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 556,
+                        "name": "msg",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 921,
+                        "src": "242:3:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_magic_message",
+                          "typeString": "msg"
+                        }
+                      },
+                      "id": 557,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "sender",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "242:10:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address_payable",
+                        "typeString": "address payable"
+                      }
+                    },
+                    "src": "230:22:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 559,
+                  "nodeType": "ExpressionStatement",
+                  "src": "230:22:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 561,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 553,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "210:2:1"
+            },
+            "returnParameters": {
+              "id": 554,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "220:0:1"
+            },
+            "scope": 673,
+            "src": "199:60:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 572,
+              "nodeType": "Block",
+              "src": "331:83:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        },
+                        "id": 567,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 564,
+                            "name": "msg",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 921,
+                            "src": "349:3:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_magic_message",
+                              "typeString": "msg"
+                            }
+                          },
+                          "id": 565,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "memberName": "sender",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "349:10:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address_payable",
+                            "typeString": "address payable"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "id": 566,
+                          "name": "authority",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 546,
+                          "src": "363:9:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          }
+                        },
+                        "src": "349:23:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "43616c6c6572206973206e6f74206f776e6572",
+                        "id": 568,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "374:21:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_2d10247a65709fdb3c0696b0ed760a0c246e12f8c496efb56291dd2fe3b0275d",
+                          "typeString": "literal_string \"Caller is not owner\""
+                        },
+                        "value": "Caller is not owner"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_2d10247a65709fdb3c0696b0ed760a0c246e12f8c496efb56291dd2fe3b0275d",
+                          "typeString": "literal_string \"Caller is not owner\""
+                        }
+                      ],
+                      "id": 563,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "341:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 569,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "341:55:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 570,
+                  "nodeType": "ExpressionStatement",
+                  "src": "341:55:1"
+                },
+                {
+                  "id": 571,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "406:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 573,
+            "name": "isOwner",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 562,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "328:2:1"
+            },
+            "src": "312:102:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 584,
+              "nodeType": "Block",
+              "src": "442:91:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 579,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 576,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "460:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 577,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "469:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 578,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Lock",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "469:15:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "460:24:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f742061206c6f636b2e",
+                        "id": 580,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "486:28:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_978bbe503f367e4d5fd3d272005fff58089cbcc1b996ebc5967d5071d571d81c",
+                          "typeString": "literal_string \"This device is not a lock.\""
+                        },
+                        "value": "This device is not a lock."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_978bbe503f367e4d5fd3d272005fff58089cbcc1b996ebc5967d5071d571d81c",
+                          "typeString": "literal_string \"This device is not a lock.\""
+                        }
+                      ],
+                      "id": 575,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "452:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 581,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "452:63:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 582,
+                  "nodeType": "ExpressionStatement",
+                  "src": "452:63:1"
+                },
+                {
+                  "id": 583,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "525:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 585,
+            "name": "isLock",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 574,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "439:2:1"
+            },
+            "src": "424:109:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 596,
+              "nodeType": "Block",
+              "src": "562:93:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 591,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 588,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "580:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 589,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "589:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 590,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Light",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "589:16:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "580:25:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f742061206c696768742e",
+                        "id": 592,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "607:29:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_79ffe4233dd05208b905468bbddd51030c514a0c2ab23d68cc5d5dfcd72cdf8e",
+                          "typeString": "literal_string \"This device is not a light.\""
+                        },
+                        "value": "This device is not a light."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_79ffe4233dd05208b905468bbddd51030c514a0c2ab23d68cc5d5dfcd72cdf8e",
+                          "typeString": "literal_string \"This device is not a light.\""
+                        }
+                      ],
+                      "id": 587,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "572:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 593,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "572:65:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 594,
+                  "nodeType": "ExpressionStatement",
+                  "src": "572:65:1"
+                },
+                {
+                  "id": 595,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "647:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 597,
+            "name": "isLight",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 586,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "559:2:1"
+            },
+            "src": "543:112:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 608,
+              "nodeType": "Block",
+              "src": "685:105:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "commonType": {
+                          "typeIdentifier": "t_enum$_DeviceType_$550",
+                          "typeString": "enum Device.DeviceType"
+                        },
+                        "id": 603,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "argumentTypes": null,
+                          "id": 600,
+                          "name": "dtype",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 552,
+                          "src": "703:5:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "==",
+                        "rightExpression": {
+                          "argumentTypes": null,
+                          "expression": {
+                            "argumentTypes": null,
+                            "id": 601,
+                            "name": "DeviceType",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 550,
+                            "src": "712:10:1",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_type$_t_enum$_DeviceType_$550_$",
+                              "typeString": "type(enum Device.DeviceType)"
+                            }
+                          },
+                          "id": 602,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": true,
+                          "lValueRequested": false,
+                          "memberName": "Thermometer",
+                          "nodeType": "MemberAccess",
+                          "referencedDeclaration": null,
+                          "src": "712:22:1",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_enum$_DeviceType_$550",
+                            "typeString": "enum Device.DeviceType"
+                          }
+                        },
+                        "src": "703:31:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "argumentTypes": null,
+                        "hexValue": "5468697320646576696365206973206e6f74206120746865726d6f6d657465722e",
+                        "id": 604,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "736:35:1",
+                        "subdenomination": null,
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_a5cf60387c3fa62b66a741c56545cec4ddb9a67f0a0dbcbf20d90692448db00e",
+                          "typeString": "literal_string \"This device is not a thermometer.\""
+                        },
+                        "value": "This device is not a thermometer."
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_a5cf60387c3fa62b66a741c56545cec4ddb9a67f0a0dbcbf20d90692448db00e",
+                          "typeString": "literal_string \"This device is not a thermometer.\""
+                        }
+                      ],
+                      "id": 599,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        924,
+                        925
+                      ],
+                      "referencedDeclaration": 925,
+                      "src": "695:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 605,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "695:77:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 606,
+                  "nodeType": "ExpressionStatement",
+                  "src": "695:77:1"
+                },
+                {
+                  "id": 607,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "782:1:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 609,
+            "name": "isThermo",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 598,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "682:2:1"
+            },
+            "src": "665:125:1",
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 620,
+              "nodeType": "Block",
+              "src": "859:37:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "arguments": [
+                      {
+                        "argumentTypes": null,
+                        "id": 617,
+                        "name": "this",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 935,
+                        "src": "884:4:1",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_contract$_Device_$673",
+                          "typeString": "contract Device"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_contract$_Device_$673",
+                          "typeString": "contract Device"
+                        }
+                      ],
+                      "id": 616,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "nodeType": "ElementaryTypeNameExpression",
+                      "src": "876:7:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_type$_t_address_$",
+                        "typeString": "type(address)"
+                      },
+                      "typeName": "address"
+                    },
+                    "id": 618,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "typeConversion",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "876:13:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 615,
+                  "id": 619,
+                  "nodeType": "Return",
+                  "src": "869:20:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 621,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 612,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 611,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "834:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "834:7:1"
+              }
+            ],
+            "name": "returnAddr",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 610,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "819:2:1"
+            },
+            "returnParameters": {
+              "id": 615,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 614,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 621,
+                  "src": "850:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 613,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "850:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "849:9:1"
+            },
+            "scope": 673,
+            "src": "800:96:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 632,
+              "nodeType": "Block",
+              "src": "961:26:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 630,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 628,
+                      "name": "dtype",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 552,
+                      "src": "971:5:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_DeviceType_$550",
+                        "typeString": "enum Device.DeviceType"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "id": 629,
+                      "name": "x",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 623,
+                      "src": "979:1:1",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_DeviceType_$550",
+                        "typeString": "enum Device.DeviceType"
+                      }
+                    },
+                    "src": "971:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "id": 631,
+                  "nodeType": "ExpressionStatement",
+                  "src": "971:9:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 633,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 626,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 625,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "953:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "953:7:1"
+              }
+            ],
+            "name": "changeDeviceType",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 624,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 623,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 633,
+                  "src": "932:12:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_DeviceType_$550",
+                    "typeString": "enum Device.DeviceType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 622,
+                    "name": "DeviceType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 550,
+                    "src": "932:10:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "931:14:1"
+            },
+            "returnParameters": {
+              "id": 627,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "961:0:1"
+            },
+            "scope": 673,
+            "src": "906:81:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 642,
+              "nodeType": "Block",
+              "src": "1065:29:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 640,
+                    "name": "dtype",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 552,
+                    "src": "1082:5:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "functionReturnParameters": 639,
+                  "id": 641,
+                  "nodeType": "Return",
+                  "src": "1075:12:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 643,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 636,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 635,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "1037:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "1037:7:1"
+              }
+            ],
+            "name": "returnDeviceType",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 634,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1022:2:1"
+            },
+            "returnParameters": {
+              "id": 639,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 638,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 643,
+                  "src": "1053:10:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_DeviceType_$550",
+                    "typeString": "enum Device.DeviceType"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 637,
+                    "name": "DeviceType",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 550,
+                    "src": "1053:10:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_DeviceType_$550",
+                      "typeString": "enum Device.DeviceType"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1052:12:1"
+            },
+            "scope": 673,
+            "src": "997:97:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 650,
+              "nodeType": "Block",
+              "src": "1149:33:1",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 648,
+                    "name": "authority",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 546,
+                    "src": "1166:9:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "functionReturnParameters": 647,
+                  "id": 649,
+                  "nodeType": "Return",
+                  "src": "1159:16:1"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 651,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "auth",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 644,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1117:2:1"
+            },
+            "returnParameters": {
+              "id": 647,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 646,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 651,
+                  "src": "1140:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 645,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1140:7:1",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1139:9:1"
+            },
+            "scope": 673,
+            "src": "1104:78:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 654,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "f1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 652,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1203:2:1"
+            },
+            "returnParameters": {
+              "id": 653,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1212:0:1"
+            },
+            "scope": 673,
+            "src": "1192:21:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 657,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "f2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 655,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1229:2:1"
+            },
+            "returnParameters": {
+              "id": 656,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1238:0:1"
+            },
+            "scope": 673,
+            "src": "1218:21:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 662,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fparamint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 660,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 659,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 662,
+                  "src": "1264:9:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 658,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1264:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1263:11:1"
+            },
+            "returnParameters": {
+              "id": 661,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1281:0:1"
+            },
+            "scope": 673,
+            "src": "1244:38:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 667,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewbool1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 663,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1306:2:1"
+            },
+            "returnParameters": {
+              "id": 666,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 665,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 667,
+                  "src": "1329:4:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 664,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1329:4:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1328:6:1"
+            },
+            "scope": 673,
+            "src": "1287:48:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": null,
+            "documentation": null,
+            "id": 672,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 668,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1358:2:1"
+            },
+            "returnParameters": {
+              "id": 671,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 670,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 672,
+                  "src": "1381:7:1",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 669,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1381:7:1",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1380:9:1"
+            },
+            "scope": 673,
+            "src": "1340:50:1",
+            "stateMutability": "view",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 674,
+        "src": "25:1367:1"
+      }
+    ],
+    "src": "0:1392:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-03-16T02:57:39.569Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

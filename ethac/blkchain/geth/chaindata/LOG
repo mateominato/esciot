@@ -1,0 +1,42 @@
+=============== Mar 14, 2020 (PDT) ===============
+16:14:37.485413 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:37.506205 db@open opening
+16:14:37.509737 version@stat F·[] S·0B[] Sc·[]
+16:14:37.519455 db@janitor F·2 G·0
+16:14:37.521921 db@open done T·13.561287ms
+=============== Mar 14, 2020 (PDT) ===============
+16:15:16.883534 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:15:16.884213 version@stat F·[] S·0B[] Sc·[]
+16:15:16.884246 db@open opening
+16:15:16.884317 journal@recovery F·1
+16:15:16.886677 journal@recovery recovering @1
+16:15:16.887437 version@stat F·[] S·0B[] Sc·[]
+16:15:16.928149 db@janitor F·2 G·0
+16:15:16.928218 db@open done T·43.949339ms
+16:15:16.931068 db@close closing
+16:15:16.931469 db@close done T·397.21µs
+=============== Mar 14, 2020 (PDT) ===============
+16:17:48.556545 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:17:48.557223 version@stat F·[] S·0B[] Sc·[]
+16:17:48.557266 db@open opening
+16:17:48.557339 journal@recovery F·1
+16:17:48.560636 journal@recovery recovering @2
+16:17:48.572960 memdb@flush created L0@4 N·10 S·568B "H\xfb\xb8..+\xaaY,v3":"r\x00\x00..+\xaaY,v5"
+16:17:48.576892 version@stat F·[1] S·568B[568B] Sc·[0.25]
+16:17:48.618259 db@janitor F·3 G·0
+16:17:48.618419 db@open done T·61.125313ms
+16:19:36.577458 db@close closing
+16:19:36.577850 db@close done T·389.737µs
+=============== Mar 14, 2020 (PDT) ===============
+16:19:43.537758 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:19:43.538218 version@stat F·[1] S·568B[568B] Sc·[0.25]
+16:19:43.538257 db@open opening
+16:19:43.538352 journal@recovery F·1
+16:19:43.542728 journal@recovery recovering @5
+16:19:43.553775 memdb@flush created L0@7 N·1 S·192B "Dat..ion,v12":"Dat..ion,v12"
+16:19:43.559244 version@stat F·[2] S·760B[760B] Sc·[0.50]
+16:19:43.597862 db@janitor F·4 G·0
+16:19:43.597933 db@open done T·59.6504ms
+=============== Mar 15, 2020 (PDT) ===============
+12:36:28.985134 db@close closing
+12:36:28.987148 db@close done T·2.254714ms

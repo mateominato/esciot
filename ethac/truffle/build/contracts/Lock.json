@@ -1,0 +1,1662 @@
+{
+  "contractName": "Lock",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "bool",
+          "name": "value1",
+          "type": "bool"
+        }
+      ],
+      "name": "test_value",
+      "type": "event"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "auth",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "enum Device.DeviceType",
+          "name": "x",
+          "type": "uint8"
+        }
+      ],
+      "name": "changeDeviceType",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "returnAddr",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "returnDeviceType",
+      "outputs": [
+        {
+          "internalType": "enum Device.DeviceType",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "f1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "f2",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fviewbool1",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "x",
+          "type": "uint256"
+        }
+      ],
+      "name": "fparamint1",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fviewint1",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"bool\",\"name\":\"value1\",\"type\":\"bool\"}],\"name\":\"test_value\",\"type\":\"event\"},{\"constant\":true,\"inputs\":[],\"name\":\"auth\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"enum Device.DeviceType\",\"name\":\"x\",\"type\":\"uint8\"}],\"name\":\"changeDeviceType\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"f1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[],\"name\":\"f2\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"fparamint1\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"fviewbool1\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"fviewint1\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"returnAddr\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"returnDeviceType\",\"outputs\":[{\"internalType\":\"enum Device.DeviceType\",\"name\":\"\",\"type\":\"uint8\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/Mateo/ethac/truffle/contracts/Lock.sol\":\"Lock\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Mateo/ethac/truffle/contracts/Device.sol\":{\"keccak256\":\"0xb633a3994f4877fc3791b0f434bc9a12ee981e3fa1d5b49746141a4f4fb7dc40\",\"urls\":[\"bzz-raw://fccc0f86f9d8dbacd75ff494b3ff7c82a3f97918655f9ee616a3b619da390968\",\"dweb:/ipfs/QmZoTdXXCwSaFYXWANEviU3Cd3JDQtHd3GMwtTJk3qS6XL\"]},\"/Users/Mateo/ethac/truffle/contracts/Lock.sol\":{\"keccak256\":\"0x952fcbf6f93d6bc3c780093bf948bb4f7e9825be14963c6c4c67d9c5661796fd\",\"urls\":[\"bzz-raw://eac3d8cdc79b6632dbda5090397c10d6244c0af4cf514e765f976464ea1dff58\",\"dweb:/ipfs/QmTM9LQFk8CnFxgZCze43VNZeawZpTR8yMQy3zQrBvfvTE\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506001600060156101000a81548160ff021916908315150217905550610ac08061007b6000396000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c8063a382966711610066578063a382966714610149578063be7bf0c514610177578063c27fc30514610195578063de9375f21461019f578063ed596ee9146101e957610093565b80630eb92b0d14610098578063638b2f62146100c957806368d8ca7a146101135780639942ec6f1461013f575b600080fd5b6100c7600480360360208110156100ae57600080fd5b81019080803560ff16906020019092919050505061020b565b005b6100d16102f3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61011b6103bd565b6040518082600281111561012b57fe5b60ff16815260200191505060405180910390f35b610147610496565b005b6101756004803603602081101561015f57600080fd5b810190808035906020019092919050505061060f565b005b61017f61076f565b6040518082815260200191505060405180910390f35b61019d610774565b005b6101a76108ee565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101f1610917565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146102cd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b80600060146101000a81548160ff021916908360028111156102eb57fe5b021790555050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103b7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b30905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610481576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060149054906101000a900460ff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610558576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b6000600281111561056557fe5b600060149054906101000a900460ff16600281111561058057fe5b146105f3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b60008060156101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146106d1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060028111156106de57fe5b600060149054906101000a900460ff1660028111156106f957fe5b1461076c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b50565b600090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610836576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b6000600281111561084357fe5b600060149054906101000a900460ff16600281111561085e57fe5b146108d1576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b6001600060156101000a81548160ff021916908315150217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146109db576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060028111156109e857fe5b600060149054906101000a900460ff166002811115610a0357fe5b14610a76576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b600060159054906101000a900460ff1690509056fea265627a7a72315820caf3ec4241b3d1233cefe44df12c7194ebd5b49f636e692e825f0bdf9e06f29764736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c8063a382966711610066578063a382966714610149578063be7bf0c514610177578063c27fc30514610195578063de9375f21461019f578063ed596ee9146101e957610093565b80630eb92b0d14610098578063638b2f62146100c957806368d8ca7a146101135780639942ec6f1461013f575b600080fd5b6100c7600480360360208110156100ae57600080fd5b81019080803560ff16906020019092919050505061020b565b005b6100d16102f3565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b61011b6103bd565b6040518082600281111561012b57fe5b60ff16815260200191505060405180910390f35b610147610496565b005b6101756004803603602081101561015f57600080fd5b810190808035906020019092919050505061060f565b005b61017f61076f565b6040518082815260200191505060405180910390f35b61019d610774565b005b6101a76108ee565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b6101f1610917565b604051808215151515815260200191505060405180910390f35b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146102cd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b80600060146101000a81548160ff021916908360028111156102eb57fe5b021790555050565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146103b7576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b30905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610481576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060149054906101000a900460ff16905090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610558576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b6000600281111561056557fe5b600060149054906101000a900460ff16600281111561058057fe5b146105f3576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b60008060156101000a81548160ff021916908315150217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146106d1576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060028111156106de57fe5b600060149054906101000a900460ff1660028111156106f957fe5b1461076c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b50565b600090565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614610836576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b6000600281111561084357fe5b600060149054906101000a900460ff16600281111561085e57fe5b146108d1576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b6001600060156101000a81548160ff021916908315150217905550565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16905090565b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146109db576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004018080602001828103825260138152602001807f43616c6c6572206973206e6f74206f776e65720000000000000000000000000081525060200191505060405180910390fd5b600060028111156109e857fe5b600060149054906101000a900460ff166002811115610a0357fe5b14610a76576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040180806020018281038252601a8152602001807f5468697320646576696365206973206e6f742061206c6f636b2e00000000000081525060200191505060405180910390fd5b600060159054906101000a900460ff1690509056fea265627a7a72315820caf3ec4241b3d1233cefe44df12c7194ebd5b49f636e692e825f0bdf9e06f29764736f6c63430005100032",
+  "sourceMap": "49:660:3:-;;;149:51;8:9:-1;5:2;;;30:1;27;20:12;5:2;149:51:3;242:10:1;230:9;;:22;;;;;;;;;;;;;;;;;;189:4:3;180:6;;:13;;;;;;;;;;;;;;;;;;49:660;;;;;;",
+  "deployedSourceMap": "49:660:3:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:660:3;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;906:81:1;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;906:81:1;;;;;;;;;;;;;;;;;;;:::i;:::-;;800:96;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;997:97;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;307:90:3;;;:::i;:::-;;533:81;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;533:81:3;;;;;;;;;;;;;;;;;:::i;:::-;;624:78;;;:::i;:::-;;;;;;;;;;;;;;;;;;;210:87;;;:::i;:::-;;1104:78:1;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;407:116:3;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;906:81:1;363:9;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;979:1;971:5;;:9;;;;;;;;;;;;;;;;;;;;;;;;906:81;:::o;800:96::-;850:7;363:9;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;884:4;869:20;;800:96;:::o;997:97::-;1053:10;363:9;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1082:5;;;;;;;;;;;1075:12;;997:97;:::o;307:90:3:-;363:9:1;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;469:15;460:24;;;;;;;;:5;;;;;;;;;;;:24;;;;;;;;;452:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;385:5:3;376:6;;:14;;;;;;;;;;;;;;;;;;307:90::o;533:81::-;363:9:1;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;469:15;460:24;;;;;;;;:5;;;;;;;;;;;:24;;;;;;;;;452:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;533:81:3;:::o;624:78::-;665:7;624:78;:::o;210:87::-;363:9:1;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;469:15;460:24;;;;;;;;:5;;;;;;;;;;;:24;;;;;;;;;452:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;286:4:3;277:6;;:13;;;;;;;;;;;;;;;;;;210:87::o;1104:78:1:-;1140:7;1166:9;;;;;;;;;;;1159:16;;1104:78;:::o;407:116:3:-;464:4;363:9:1;;;;;;;;;;;349:23;;:10;:23;;;341:55;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;469:15;460:24;;;;;;;;:5;;;;;;;;;;;:24;;;;;;;;;452:63;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;510:6:3;;;;;;;;;;;503:13;;407:116;:::o",
+  "source": "pragma solidity ^0.5.1;\n\nimport \"./Device.sol\";\n\ncontract Lock is Device {\n    bool private locked;\n    \n    event test_value(bool value1);\n    \n    constructor() public {\n        locked = true;\n    }\n    \n    function f1() public isOwner isLock {\n        //Lock doors\n        locked = true;\n    }\n    \n    function f2() public isOwner isLock {\n        //Unlock doors\n        locked = false;\n    }\n    \n    function fviewbool1() public view isOwner isLock returns(bool) {\n        //Return state\n        return locked;\n    }\n    \n    function fparamint1(uint256 x) public isOwner isLock {\n        //Do nothing\n    }\n    \n    function fviewint1() public view returns(uint256) {\n        //Do nothing\n    }\n    \n}",
+  "sourcePath": "/Users/Mateo/ethac/truffle/contracts/Lock.sol",
+  "ast": {
+    "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Lock.sol",
+    "exportedSymbols": {
+      "Lock": [
+        809
+      ]
+    },
+    "id": 810,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 739,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Device.sol",
+        "file": "./Device.sol",
+        "id": 740,
+        "nodeType": "ImportDirective",
+        "scope": 810,
+        "sourceUnit": 674,
+        "src": "25:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 741,
+              "name": "Device",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 673,
+              "src": "66:6:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Device_$673",
+                "typeString": "contract Device"
+              }
+            },
+            "id": 742,
+            "nodeType": "InheritanceSpecifier",
+            "src": "66:6:3"
+          }
+        ],
+        "contractDependencies": [
+          673
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 809,
+        "linearizedBaseContracts": [
+          809,
+          673
+        ],
+        "name": "Lock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 744,
+            "name": "locked",
+            "nodeType": "VariableDeclaration",
+            "scope": 809,
+            "src": "79:19:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 743,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "79:4:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "anonymous": false,
+            "documentation": null,
+            "id": 748,
+            "name": "test_value",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 747,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 746,
+                  "indexed": false,
+                  "name": "value1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 748,
+                  "src": "126:11:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 745,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "126:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "125:13:3"
+            },
+            "src": "109:30:3"
+          },
+          {
+            "body": {
+              "id": 755,
+              "nodeType": "Block",
+              "src": "170:30:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 753,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 751,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "180:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 752,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "189:4:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "180:13:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 754,
+                  "nodeType": "ExpressionStatement",
+                  "src": "180:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 756,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 749,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "160:2:3"
+            },
+            "returnParameters": {
+              "id": 750,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "170:0:3"
+            },
+            "scope": 809,
+            "src": "149:51:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 767,
+              "nodeType": "Block",
+              "src": "246:51:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 765,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 763,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "277:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 764,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "286:4:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "277:13:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 766,
+                  "nodeType": "ExpressionStatement",
+                  "src": "277:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 768,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 759,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 758,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "231:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "231:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 761,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 760,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "239:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "239:6:3"
+              }
+            ],
+            "name": "f1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 757,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:2:3"
+            },
+            "returnParameters": {
+              "id": 762,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "246:0:3"
+            },
+            "scope": 809,
+            "src": "210:87:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 654,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 779,
+              "nodeType": "Block",
+              "src": "343:54:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 777,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 775,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "376:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 776,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "385:5:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "src": "376:14:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 778,
+                  "nodeType": "ExpressionStatement",
+                  "src": "376:14:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 780,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 771,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 770,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "328:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "328:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 773,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 772,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "336:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "336:6:3"
+              }
+            ],
+            "name": "f2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 769,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "318:2:3"
+            },
+            "returnParameters": {
+              "id": 774,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "343:0:3"
+            },
+            "scope": 809,
+            "src": "307:90:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 657,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 791,
+              "nodeType": "Block",
+              "src": "470:53:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 789,
+                    "name": "locked",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 744,
+                    "src": "510:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 788,
+                  "id": 790,
+                  "nodeType": "Return",
+                  "src": "503:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 792,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 783,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 782,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "441:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "441:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 785,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 784,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "449:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "449:6:3"
+              }
+            ],
+            "name": "fviewbool1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 781,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "426:2:3"
+            },
+            "returnParameters": {
+              "id": 788,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 787,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 792,
+                  "src": "464:4:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 786,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "464:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "463:6:3"
+            },
+            "scope": 809,
+            "src": "407:116:3",
+            "stateMutability": "view",
+            "superFunction": 667,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 801,
+              "nodeType": "Block",
+              "src": "586:28:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 802,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 797,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 796,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "571:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "571:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 799,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 798,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "579:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "579:6:3"
+              }
+            ],
+            "name": "fparamint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 795,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 794,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 802,
+                  "src": "553:9:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 793,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "553:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "552:11:3"
+            },
+            "returnParameters": {
+              "id": 800,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "586:0:3"
+            },
+            "scope": 809,
+            "src": "533:81:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 662,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 807,
+              "nodeType": "Block",
+              "src": "674:28:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 808,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 803,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "642:2:3"
+            },
+            "returnParameters": {
+              "id": 806,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 805,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 808,
+                  "src": "665:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 804,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "665:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "664:9:3"
+            },
+            "scope": 809,
+            "src": "624:78:3",
+            "stateMutability": "view",
+            "superFunction": 672,
+            "visibility": "public"
+          }
+        ],
+        "scope": 810,
+        "src": "49:660:3"
+      }
+    ],
+    "src": "0:709:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Lock.sol",
+    "exportedSymbols": {
+      "Lock": [
+        809
+      ]
+    },
+    "id": 810,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 739,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".1"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:3"
+      },
+      {
+        "absolutePath": "/Users/Mateo/ethac/truffle/contracts/Device.sol",
+        "file": "./Device.sol",
+        "id": 740,
+        "nodeType": "ImportDirective",
+        "scope": 810,
+        "sourceUnit": 674,
+        "src": "25:22:3",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [
+          {
+            "arguments": null,
+            "baseName": {
+              "contractScope": null,
+              "id": 741,
+              "name": "Device",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 673,
+              "src": "66:6:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_contract$_Device_$673",
+                "typeString": "contract Device"
+              }
+            },
+            "id": 742,
+            "nodeType": "InheritanceSpecifier",
+            "src": "66:6:3"
+          }
+        ],
+        "contractDependencies": [
+          673
+        ],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 809,
+        "linearizedBaseContracts": [
+          809,
+          673
+        ],
+        "name": "Lock",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 744,
+            "name": "locked",
+            "nodeType": "VariableDeclaration",
+            "scope": 809,
+            "src": "79:19:3",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_bool",
+              "typeString": "bool"
+            },
+            "typeName": {
+              "id": 743,
+              "name": "bool",
+              "nodeType": "ElementaryTypeName",
+              "src": "79:4:3",
+              "typeDescriptions": {
+                "typeIdentifier": "t_bool",
+                "typeString": "bool"
+              }
+            },
+            "value": null,
+            "visibility": "private"
+          },
+          {
+            "anonymous": false,
+            "documentation": null,
+            "id": 748,
+            "name": "test_value",
+            "nodeType": "EventDefinition",
+            "parameters": {
+              "id": 747,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 746,
+                  "indexed": false,
+                  "name": "value1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 748,
+                  "src": "126:11:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 745,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "126:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "125:13:3"
+            },
+            "src": "109:30:3"
+          },
+          {
+            "body": {
+              "id": 755,
+              "nodeType": "Block",
+              "src": "170:30:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 753,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 751,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "180:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 752,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "189:4:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "180:13:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 754,
+                  "nodeType": "ExpressionStatement",
+                  "src": "180:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 756,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 749,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "160:2:3"
+            },
+            "returnParameters": {
+              "id": 750,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "170:0:3"
+            },
+            "scope": 809,
+            "src": "149:51:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 767,
+              "nodeType": "Block",
+              "src": "246:51:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 765,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 763,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "277:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 764,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "286:4:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "src": "277:13:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 766,
+                  "nodeType": "ExpressionStatement",
+                  "src": "277:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 768,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 759,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 758,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "231:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "231:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 761,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 760,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "239:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "239:6:3"
+              }
+            ],
+            "name": "f1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 757,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "221:2:3"
+            },
+            "returnParameters": {
+              "id": 762,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "246:0:3"
+            },
+            "scope": 809,
+            "src": "210:87:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 654,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 779,
+              "nodeType": "Block",
+              "src": "343:54:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 777,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 775,
+                      "name": "locked",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 744,
+                      "src": "376:6:3",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 776,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "385:5:3",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "src": "376:14:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "id": 778,
+                  "nodeType": "ExpressionStatement",
+                  "src": "376:14:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 780,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 771,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 770,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "328:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "328:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 773,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 772,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "336:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "336:6:3"
+              }
+            ],
+            "name": "f2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 769,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "318:2:3"
+            },
+            "returnParameters": {
+              "id": 774,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "343:0:3"
+            },
+            "scope": 809,
+            "src": "307:90:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 657,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 791,
+              "nodeType": "Block",
+              "src": "470:53:3",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 789,
+                    "name": "locked",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 744,
+                    "src": "510:6:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 788,
+                  "id": 790,
+                  "nodeType": "Return",
+                  "src": "503:13:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 792,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 783,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 782,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "441:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "441:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 785,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 784,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "449:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "449:6:3"
+              }
+            ],
+            "name": "fviewbool1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 781,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "426:2:3"
+            },
+            "returnParameters": {
+              "id": 788,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 787,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 792,
+                  "src": "464:4:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 786,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "464:4:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "463:6:3"
+            },
+            "scope": 809,
+            "src": "407:116:3",
+            "stateMutability": "view",
+            "superFunction": 667,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 801,
+              "nodeType": "Block",
+              "src": "586:28:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 802,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "arguments": null,
+                "id": 797,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 796,
+                  "name": "isOwner",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 573,
+                  "src": "571:7:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "571:7:3"
+              },
+              {
+                "arguments": null,
+                "id": 799,
+                "modifierName": {
+                  "argumentTypes": null,
+                  "id": 798,
+                  "name": "isLock",
+                  "nodeType": "Identifier",
+                  "overloadedDeclarations": [],
+                  "referencedDeclaration": 585,
+                  "src": "579:6:3",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_modifier$__$",
+                    "typeString": "modifier ()"
+                  }
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "579:6:3"
+              }
+            ],
+            "name": "fparamint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 795,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 794,
+                  "name": "x",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 802,
+                  "src": "553:9:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 793,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "553:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "552:11:3"
+            },
+            "returnParameters": {
+              "id": 800,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "586:0:3"
+            },
+            "scope": 809,
+            "src": "533:81:3",
+            "stateMutability": "nonpayable",
+            "superFunction": 662,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 807,
+              "nodeType": "Block",
+              "src": "674:28:3",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 808,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "fviewint1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 803,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "642:2:3"
+            },
+            "returnParameters": {
+              "id": 806,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 805,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 808,
+                  "src": "665:7:3",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 804,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "665:7:3",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "664:9:3"
+            },
+            "scope": 809,
+            "src": "624:78:3",
+            "stateMutability": "view",
+            "superFunction": 672,
+            "visibility": "public"
+          }
+        ],
+        "scope": 810,
+        "src": "49:660:3"
+      }
+    ],
+    "src": "0:709:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.23",
+  "updatedAt": "2020-03-16T02:57:39.571Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

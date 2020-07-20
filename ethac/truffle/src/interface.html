@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>Hello World</title>
+</head>
+<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <div id="message"></div>
+
+  <br>
+
+  <div id="devs"></div>
+
+  <br>
+
+  <form action="/action_page.php" id="device">
+    Device name: <input type="text" name="dname"><br>
+    Device type:
+    <input type="radio" name="dtype"
+    value="0" checked> Lock
+    <input type="radio" name="dtype"
+    value="1"> Light
+    <input type="radio" name="dtype"
+    value="2"> Thermostat
+    <input type="button" onclick="addDevice()" value="Add Device">
+  </form>
+
+  <br>
+
+  <form action="/action_page.php" id="action">
+    Device name: <input type="text" name="dname"><br>
+    Device type:
+    <input type="radio" name="act"
+    value="1" checked> Lock Doors/Lights On
+    <input type="radio" name="act"
+    value="2"> Unlock Doors/Lights Off
+    <input type="button" onclick="execAction()" value="Execute">
+  </form>
+
+  <br>
+
+  <form action="/action_page.php" id="view_state">
+    Device name: <input type="text" name="dname">
+    <input type="button" onclick="viewState()" value="View State">
+  </form>
+
+  <br>
+
+  <div id="state"></div>
+
+  <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js@1.0.0-beta.36/dist/web3.min.js" integrity="sha256-nWBTbvxhJgjslRyuAKJHK+XcZPlCnmIAAMixz6EefVk=" crossorigin="anonymous"></script>
+  <script language="javascript" type="text/javascript" src="./abi.js"></script>
+  <script>
+    var contract;
+    const contractAddress = "0x30557e60FD74c40a6797550079DE7B550A9d7079";
+    let devices = new Map(); //map of devices
+
+    window.addEventListener('load', async () => {
+
+      const getPermissions = async () => {
+        contract = new web3.eth.Contract(abi, contractAddress);
+        let message = await contract.methods.testAuth().call();
+        return message;
+      }
+
+      // Modern dapp browsers...
+      if (window.ethereum) {
+        window.web3 = new Web3(ethereum);
+        try {
+          // Request account access if needed
+          await ethereum.enable();
+
+          var message = await getPermissions();
+          console.log(message);
+          document.getElementById("message").innerHTML = message;
+        } catch (error) {
+          // User denied account access...
+        }
+      }
+      // Non-dapp browsers...
+      else {
+        console.log('Non-Ethereum browser detected. You should consider trying MetaMask!');
+      }
+    });
+
+    const addDevice = async () => {
+      contract = new web3.eth.Contract(abi, contractAddress);
+      var inpt = document.getElementById("device");
+      await contract.methods.addDevice(inpt.elements[0].value, inpt.elements[1].value).call();
+      devices.set(inpt.elements[0].value, inpt.elements[1].value);
+      document.getElementById("devs").innerHTML = Array.from(devices.keys());
+    }
+
+    const viewState = async() => {
+      contract = new web3.eth.Contract(abi, contractAddress);
+      var inpt = document.getElementById("view_state");
+      if (devices.get(inpt.elements[0].value) == 0) {
+        console.log(inpt.elements[0].value);
+        let action = await contract.methods.doorState(inpt.elements[0].value).call();
+        console.log(action);
+        document.getElementById("state").innerHtml = action;
+      } else if (devices.get(inpt.elements[0].value) == 1) {
+        let action = await contract.methods.lightState(inpt.elements[0].value).call();
+        console.log(action);
+        document.getElementById("state").innerHtml = action;
+      }
+    }
+
+    const execAction = async() => {
+      contract = new web3.eth.Contract(abi, contractAddress);
+      var inpt = document.getElementById("action");
+      if (inpt.elements[1].value == 1) {
+        if (devices.get(inpt.elements[0].value) == 0) { //Lock
+          let action = await contract.methods.lockDoors(inpt.elements[0].value).call();
+        } else if (devices.get(inpt.elements[0].value) == 1) { //Light
+          let action = await contract.methods.turnOnLights(inpt.elements[0].value).call();
+        }
+      } else if (inpt.elements[1].value == 2) {
+        if (devices.get(inpt.elements[0].value) == 0) { //Lock
+          let action = await contract.methods.unlockDoors(inpt.elements[0].value).call();
+        } else if (devices.get(inpt.elements[0].value) == 1) { //Light
+          let action = await contract.methods.turnOffLights(inpt.elements[0].value).call();
+        }
+      }
+    }
+
+  </script>
+
+</body>
+</html>
